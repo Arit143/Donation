@@ -35,7 +35,7 @@ There is one main URL
 
 ###STEPS
 
-1. Just go the above said URL and look into the specifications as asked.
+1. Go to the above said URL and look into the specifications as asked.
 
 ###ASSUMPTIONS
 
