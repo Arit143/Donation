@@ -25,6 +25,7 @@
 }
 .center{
     border: 1px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
 }
 
 .center .progress{
@@ -62,10 +63,10 @@
 	font-size: 170%;
 }
 
-.dollar-icon > input {
-	padding-left: 35px;
-	padding-right: 0;
-	font-size: 170%
+.dollar-icon > input, .btn {
+	font-size:25px;
+	padding:25px 35px;
+	
 }
 
 .popover-content{
@@ -88,19 +89,61 @@
 }
 
 .form-control{
-	width: 90% !important;
-	height: 9%;
+	width: 100%;
+	height: auto;
 }	
 
-.btn {
+/*.btn {
 	padding: 13% 23% !important;
 	font-size: 100%;
-}
+}*/
 .btn-primary{
-	background-color: #32CD32 !important;
-	border-color : #32CD32 !important;
+	background-color: #32CD32;
+	border-color:#32CD32;
+	border-bottom: 2px solid green;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:hover{
+	background: green;
 }
 .tooltip.tooltipCustomClass .tooltip-inner {
   	font-family: 'Alegreya Sans';
 	letter-spacing: 1;
+}
+
+
+@media only screen and (max-width: 450px) {
+
+.centerContainer, .mainContainer{
+		width:100% !important;
+	} 
+
+.dollar-icon > input, .btn {
+	font-size:25px;
+	padding:20px 20px;
+	
+}
+.dollar-icon > input{
+	padding-left:35px;
+}
+}
+
+@media only screen and (min-width: 450px) and (max-width:900px ){
+.centerContainer, .mainContainer{
+		width:100% !important;
+	} 
+
+.dollar-icon > input, .btn {
+	width:100%;
+	font-size:25px;
+	padding:20px 20px;
+	
+}
+.dollar-icon > input{
+	padding-left:75px;
+}
+}
+
+
 }
