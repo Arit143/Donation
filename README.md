@@ -57,6 +57,7 @@ CSS and FONTS
 ****
 
 1. All custom css files and google fonts are found under /css and /fonts.
+2. No images/icons are used.
 
 ###FUNCTIONALITY
 
