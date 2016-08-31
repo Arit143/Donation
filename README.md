@@ -69,6 +69,7 @@ CSS and FONTS
 6. When progress bar gets filled, it comes out with a popover "Thank you! for your donation". Rest for the unfilled part it shows the remaining amount left for funding the project.
 7. The page is responsive on available devices in Chrome Emulator.
 8. Added a tooltip for link "Why give $50?"
+9. "$" is always constant in the input box. No icon as been used to fulfill this.
 
 
 
