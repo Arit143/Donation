@@ -25,7 +25,8 @@
 }
 .center{
     border: 1px solid lightgrey;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    margin-bottom : 20px;
 }
 
 .center .progress{
@@ -65,7 +66,7 @@
 
 .dollar-icon > input, .btn {
 	font-size:25px;
-	padding:25px 35px;
+	padding:18px 35px;
 	
 }
 
@@ -93,10 +94,7 @@
 	height: auto;
 }	
 
-/*.btn {
-	padding: 13% 23% !important;
-	font-size: 100%;
-}*/
+
 .btn-primary{
 	background-color: #32CD32;
 	border-color:#32CD32;
@@ -112,6 +110,31 @@
 	letter-spacing: 1;
 }
 
+.defaultButton {
+	border-radius: 6px;
+    padding: 10px 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    background-color: #F5F5F5;
+    color: grey;
+    border: 1px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    letter-spacing: 1;
+}
+
+.defaultButtonMainClass .col-xs-6{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.defaultButtonMainClass .save{
+	padding-right: 10px;
+}
+
+.defaultButtonMainClass .tell{
+	padding-left: 10px;
+}
 
 @media only screen and (max-width: 450px) {
 
@@ -127,9 +150,25 @@
 .dollar-icon > input{
 	padding-left:35px;
 }
+.defaultButton {
+	padding: 10px 0px;
+	font-size: 16px;
+}
+.defaultButtonMainClass .col-xs-6{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.defaultButtonMainClass .tell{
+	padding-left: 10px;
+}
+.defaultButtonMainClass .save{
+	padding-right: 10px;
+	padding-left: 0px;
 }
 
-@media only screen and (min-width: 450px) and (max-width:900px ){
+}
+
+@media only screen and (min-width: 450px) and (max-width:1000px ){
 .centerContainer, .mainContainer{
 		width:100% !important;
 	} 

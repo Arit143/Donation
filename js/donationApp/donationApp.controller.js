@@ -17,16 +17,24 @@
 			};
 			$scope.remainingDonationValue = 5000;
 			$scope.max = 5000;
-			$scope.dynamic = 0;
+			$scope.donationValue = 0;
+			$scope.showError = false;
 		}
 		
 		vm.init();
 
 		vm.random = function(form){
-			$scope.form['total'] += parseFloat(form['donationValue']);
-			console.log($scope.form['total']);
-			$scope.dynamic = $scope.form['total'];
-			$scope.remainingDonationValue -= parseFloat(form['donationValue']);
+			$scope.showError = false;
+			var donationValue = parseFloat(form['donationValue']);
+
+			if(isNaN(donationValue)){
+				$scope.showError = true;
+				return false;
+			}
+
+			$scope.form['total'] += donationValue;
+			$scope.donationValue = $scope.form['total'];
+			$scope.remainingDonationValue -= donationValue;
 			$scope.remainingDonationValue = Math.round($scope.remainingDonationValue * 100) /100 ;
 		}
 
