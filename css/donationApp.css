@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Alegreya Sans";
+    font-style: bold;
+    font-weight: normal;
+    src: url("/fonts/AlegreyaSans-Medium.ttf") format("truetype");
+    letter-spacing:.6em;
+}
+
+.centerContainer{
+	margin: auto;
+    width: 55%;
+    margin-top: 15%;
+}
+
+
+.mainContainer{
+	margin-top: 15%;
+	margin: auto;
+	width: 55%;
+	font-family : 'Alegreya Sans'; 
+	letter-spacing : 1;
+	font-size: 20px;
+	font-weight: 500;
+	color: grey;
+}
+.center{
+    border: 1px solid lightgrey;
+}
+
+.center .progress{
+	height: 14px !important;
+	border-radius : 0px !important;
+}
+
+.center .progress-bar {
+	background-color: red !important;
+}
+
+.innerCenter {
+	margin: auto;
+    width: 90%;
+}
+
+.constantBottomPadding{
+	margin-bottom: 10%;
+	padding-right : 2%;
+}
+
+.dollar-icon {
+	position: relative;
+}
+
+.dollar-icon > i {
+	position: absolute;
+	display: block;
+	transform: translate(0, -50%);
+	top: 50%;
+	left : 15%;
+	pointer-events: none;
+	width: 50%;
+	font-style: normal;
+	font-size: 170%;
+}
+
+.dollar-icon > input {
+	padding-left: 35px;
+	padding-right: 0;
+	font-size: 170%
+}
+
+.popover-content{
+	font-family: 'Alegreya Sans';
+	letter-spacing: 1;
+	width: 200% !important;
+	height: 20% !important;
+	font-size: 20px;
+	padding: 25px 60px 0px 45px !important;
+	color: white !important;	
+}
+.popover{
+	max-width: 200% !important;
+	height: 10% !important;
+	background-color: black !important;
+}
+
+.popover.top >.arrow:after {
+	border-top-color: black;
+}
+
+.form-control{
+	width: 90% !important;
+	height: 9%;
+}	
+
+.btn {
+	padding: 13% 23% !important;
+	font-size: 100%;
+}
+.btn-primary{
+	background-color: #32CD32 !important;
+	border-color : #32CD32 !important;
+}
+.tooltip.tooltipCustomClass .tooltip-inner {
+  	font-family: 'Alegreya Sans';
+	letter-spacing: 1;
+}
