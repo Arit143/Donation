@@ -3,7 +3,8 @@
 <div ng-app = "donationApp" class = "mainContainer" >
 	<div ng-strict-di ng-controller = "donationAppController as donationCtrl">
 			<div class = 'center'>
-				<uib-progressbar max="max" value="donationValue" uib-popover-template ="'js/donationApp/views/donationPopOver.html'" popover-trigger="mouseenter"></uib-progressbar>
+				<uib-progressbar max="max" value="donationValue" uib-popover-template ="'js/donationApp/views/donationPopOver.html'" 
+				popover-trigger="mouseenter"></uib-progressbar>
 				<div class = 'innerCenter'>
 					<div class = 'constantBottomPadding'>
 						<span style = 'color : red !important'>
@@ -41,10 +42,15 @@
 				<button type="button" class = "defaultButton"><b>Save for later</b></button>
 			</div>
 			<div class = 'col-xs-6 tell'>
-				<button type="button" class = "defaultButton"><b>Tell your friends</b></button>
+				<button type="button" 
+				popover-placement="top"
+				uib-popover-template ="'js/donationApp/views/donationShare.html'"
+				popover-trigger="focus" 
+				class = "defaultButton"><b>Tell your friends</b></button>
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 
 

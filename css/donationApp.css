@@ -30,12 +30,12 @@
 }
 
 .center .progress{
-	height: 14px !important;
-	border-radius : 0px !important;
+	height: 14px;
+	border-radius : 0px;
 }
 
 .center .progress-bar {
-	background-color: red !important;
+	background-color: red;
 }
 
 .innerCenter {
@@ -70,30 +70,39 @@
 	
 }
 
-.popover-content{
+.popover-content {
+	padding : 0px;
+}
+
+.popover-content .customPopover{
 	font-family: 'Alegreya Sans';
 	letter-spacing: 1;
-	width: 200% !important;
-	height: 20% !important;
+	width: 100%;
 	font-size: 20px;
-	padding: 25px 60px 0px 45px !important;
-	color: white !important;	
+	padding: 25px 60px 0px 45px;
+	color: white;	
 }
-.popover{
-	max-width: 200% !important;
+
+.center .popover{
+	max-width: 100% !important;
 	height: 10% !important;
 	background-color: black !important;
 }
 
-.popover.top >.arrow:after {
+.center .popover.top >.arrow:after {
 	border-top-color: black;
 }
+
+.popover-content .socialShare{
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+}
+
 
 .form-control{
 	width: 100%;
 	height: auto;
 }	
-
 
 .btn-primary{
 	background-color: #32CD32;
