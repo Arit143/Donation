@@ -70,6 +70,7 @@ CSS and FONTS
 7. The page is responsive on available devices in Chrome Emulator.
 8. Added a tooltip for link "Why give $50?"
 9. "$" is always constant in the input box. No icon as been used to fulfill this.
+10. Facebook and Twitter sharing. Built a dummy page in facebook as there is no registered domain name for this particular donation app. Directly share a tweet of the page in twitter. 
 
 
 
